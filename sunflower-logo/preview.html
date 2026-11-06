@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SUNFLOWER Logo</title>
+<style>
+:root{--y:#FFD400;--k:#111;--r:#E63323;--w:#fff}
+*{box-sizing:border-box}
+body{margin:0;background:#f2f0ea;font:15px/1.4 Inter,system-ui,sans-serif;color:var(--k)}
+.wrap{max-width:1400px;margin:0 auto;padding:40px}
+h1{font-size:13px;letter-spacing:.2em;text-transform:uppercase;margin:0 0 20px;color:#555}
+.hero{background:var(--y);border-radius:20px;padding:70px 40px 50px;text-align:center}
+.hero img{width:min(900px,100%)}
+.slogan{margin-top:26px;font-weight:800;font-size:22px;letter-spacing:.02em}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:20px}
+.card{border-radius:20px;padding:28px;min-height:250px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+.card small{position:absolute;left:18px;bottom:12px;font-size:11px;letter-spacing:.12em;text-transform:uppercase;opacity:.6}
+.w{background:#fff}.k{background:var(--k);color:#fff}.yy{background:var(--y)}
+.card img{max-width:100%}
+/* storefront */
+.store{grid-column:span 2;background:#2a2d33;flex-direction:column;padding:0}
+.sign{width:100%;background:var(--k);padding:26px 40px;display:flex;justify-content:center;border-bottom:10px solid var(--y)}
+.sign img{height:120px}
+.window{flex:1;width:100%;background:linear-gradient(#3a3f47,#2a2d33);min-height:120px}
+/* pizza box */
+.box{width:260px;height:260px;background:#d9b98a;border-radius:6px;display:flex;align-items:center;justify-content:center;box-shadow:inset 0 0 0 10px #cfae7d}
+.box img{width:200px}
+/* insta */
+.ig{display:flex;align-items:center;gap:22px}
+.ig img{width:130px;border-radius:50%}
+.ig b{display:block;font-size:17px;word-break:break-all}
+.ig img{flex:none}
+/* app tiles */
+.apps{display:flex;gap:26px;align-items:flex-end}
+.apps img{border-radius:22%;display:block}
+.sizes{display:flex;gap:30px;align-items:center;flex-wrap:wrap}
+.colors{display:flex;gap:14px}
+.sw{width:110px;height:110px;border-radius:14px;padding:10px;font-size:12px;font-weight:700;display:flex;align-items:flex-end}
+@media(max-width:900px){.grid{grid-template-columns:1fr}.store{grid-column:auto}.wrap{padding:16px}}
+</style></head><body><div class="wrap">
+<h1>Sunflower · Langenhagen · seit 2010 — Logo</h1>
+<div class="hero"><img src="svg/sunflower-logo.svg" alt="SUNFLOWER Logo"><div class="slogan">„Einmal essen, nie wieder vergessen“</div></div>
+<div class="grid">
+  <div class="card store"><div class="sign"><img src="svg/sunflower-logo-on-black.svg" alt=""></div><div class="window"></div><small style="color:#fff">Ladenschild</small></div>
+  <div class="card w"><div class="ig"><img src="svg/sunflower-icon-profile.svg" alt=""><div><b>sunflower_langenhagen</b>Reuterdamm 78a</div></div><small>Instagram-Profilbild</small></div>
+  <div class="card w"><img src="svg/sunflower-logo.svg" alt="" style="width:100%"><small>Primär · auf Weiß</small></div>
+  <div class="card yy"><img src="svg/sunflower-stacked.svg" alt="" style="height:200px"><small>Gestapelt · auf Gelb</small></div>
+  <div class="card" style="background:#efe6d6"><div class="box"><img src="svg/sunflower-stacked.svg" alt=""></div><small>Pizzakarton</small></div>
+  <div class="card w"><img src="svg/sunflower-logo-black.svg" alt="" style="width:100%"><small>Einfarbig (Stempel, Dönerpapier)</small></div>
+  <div class="card k"><img src="svg/sunflower-logo-white.svg" alt="" style="width:100%"><small>Einfarbig negativ</small></div>
+  <div class="card w"><div class="apps"><img src="svg/sunflower-icon-yellow.svg" width="96" alt=""><img src="svg/sunflower-icon-yellow.svg" width="56" alt=""><img src="svg/sunflower-icon-yellow.svg" width="32" alt=""><img src="svg/sunflower-icon-yellow.svg" width="20" alt=""></div><small>Liefer-Apps · Favicon</small></div>
+  <div class="card w"><div class="sizes"><img src="svg/sunflower-wordmark.svg" width="260" alt=""><img src="svg/sunflower-wordmark.svg" width="140" alt=""><img src="svg/sunflower-wordmark.svg" width="90" alt=""></div><small>Kleine Größen</small></div>
+  <div class="card w"><div class="colors"><div class="sw" style="background:#FFD400">#FFD400</div><div class="sw" style="background:#111;color:#fff">#111111</div><div class="sw" style="background:#E63323;color:#fff">#E63323</div></div><small>Farben</small></div>
+</div></div></body></html>
